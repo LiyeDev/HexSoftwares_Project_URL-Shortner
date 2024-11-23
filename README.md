@@ -21,6 +21,7 @@ Testing the Service
    You can use tools like "curl" or Postman to send a POST request to     "http://localhost:8080/url/shorten" with the original URL in the body.
 
 On bash use the following prompt;
+
    ``
    curl -X POST http://localhost:8080/url/shorten -d "https://www.example.com"
    ``
